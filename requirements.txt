@@ -1,0 +1,15 @@
+streamlit
+speechrecognition
+PyAudio
+numpy
+scikit-learn
+nltk
+sentence-transformers
+transformers
+replicate
+keybert
+language-tool-python
+textstat
+sounddevice
+soundfile
+pymupdf  
