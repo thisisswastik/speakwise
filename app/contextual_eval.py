@@ -17,8 +17,7 @@ bert_model = SentenceTransformer('all-MiniLM-L6-v2')
 # -----------------------------
 def generate_ideal_answers(jd_text):
     prompt = f"""
-    You are skilled in generating ideal answers for job interviews based on job descriptions.
-    Your task is to provide a comprehensive and relevant answer to the given below job description.
+    You have to check wether the answer is aligned with the job description or not.
 
     Job Description:
     {jd_text}
